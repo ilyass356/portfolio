@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(4,200px);
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    background-color: aqua;
+}
+@media screen and (max-width:1500px){
+    .item{
+        background-color:yellow;}
+    .container{grid-template-columns: repeat(3,250px);} 
+    
+}
+@media screen and (max-width:1030px){
+    .item{
+        background-color:red}
+    .container{ grid-template-columns: repeat(2,250px)} 
+}
+    

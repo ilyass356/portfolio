@@ -1,5 +1,8 @@
 
-
+body{
+    background-image: url(/img/backgroundff.jpg);
+    background-position: center;
+}
 
 .container{
     background-color:rgb(12, 12, 12);
@@ -12,7 +15,7 @@
     border: 1px solid;
     border-radius:10px;
     padding: 25px 30px;
-    background-color: rgb(54, 54, 54);
+    background-color: rgba(57, 56, 56, 0.788);
     align-items: center;
     box-shadow: 0px 0px 14px white;
 
@@ -21,24 +24,24 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: 700;
-    color:chocolate;
+    color:white;
     padding-left: 30px;
 }
 
 .div-menu a{
     text-decoration: none;
-    color:chocolate;
+    color:white;
     padding: 18px 26px 20px;
     border: 1px solid;
-    border-color: rgb(52, 52, 52);
-    border-left-color:chocolate;
+    border-color: rgba(52, 52, 52, 0.228);
+    border-left-color:rgb(251, 10, 10)
 }
 .but{
     padding:5px 0px;
     border-radius: 10px;
-    border-color:chocolate;
+    border-color:red;
     transition: 0.3s;
-    background-color:chocolate;
+    background-color:black;
     color: aliceblue;
 }
 .but a{
@@ -47,12 +50,12 @@
     color: white
 }
 .but:hover{
-    background-color:black;
+    background-color:red;
     color:rgb(252, 250, 250);
-    border-color: chocolate;
+    border-color: red;
 }
 .abt{
-    color: chocolate;
+    color: rgb(255, 255, 255);
     font-size:xxx-large;
     font-weight: 900;
     text-decoration: underline;
@@ -68,7 +71,7 @@
 .img1{
     box-shadow: 0px 0px 30px white;
     border: 5px solid;
-    border-color: chocolate;
+    border-color: red;
     margin-left: 100px;
 }
 .Me{
@@ -108,27 +111,27 @@
     font-size:xxx-large;
     font-weight: 900;
     text-decoration: underline;
-    color:chocolate;
+    color:white;
     justify-self: center;
 }
-
 .img2{
-    padding-top: 50px;
-    justify-self: center;
+    display: flex;
+    flex-direction:column;
+    padding: 80px 90px 0px 100px;
 }
 .img0{
-    border: 5px solid;
-    border-color:chocolate;
+    border: 1px solid;
+    box-shadow: 0px 0px 30px black;
 }
 .paragraph{
     font-weight: 700;
     font-size: large;
-    padding: 60px 100px 70px 70px;
     color: rgb(251, 253, 254);
     border: 1px solid;
     border-radius: 15px;
     margin: 70px;
     box-shadow: 0px 0px 30px white inset;
+    padding: 25px 20px;
 }
 .sev{
     grid-column:1/3 ;
@@ -137,8 +140,8 @@
     font-size:xxx-large;
     font-weight: 900;
     text-decoration: underline;
-    color:chocolate;
-    justify-self:center
+    color:white;
+    justify-self:center;
 }
 .h2{
     text-decoration: underline;
@@ -153,13 +156,13 @@
 }
 .model11{
     border: 4px solid;
-    border-color: chocolate;
+    border-color:red;
     border-radius: 15px;
     padding: 10px 20px;
 }
 .model11:hover{
     transform:translateY(-5px);
-    box-shadow: 0px 0px 30px chocolate inset;
+    box-shadow: 0px 0px 17px red inset;
 }
 .model1{
     grid-column: 1/2;
@@ -180,7 +183,7 @@
 .neumorphic{
     
     background: #0f0f0f; border-radius: 20px;
-    box-shadow: 10px 10px 20px chocolate, -10px -10px 20px rgb(101, 50, 13);
+    box-shadow: 10px 10px 10px red, -10px -10px 20px black;
 
 }
 .neumorphic-inset{
@@ -205,7 +208,7 @@
 }
 .neumorphic-button:hover{
     color:#f7f1f1;
-    background-color: rgb(147, 72, 19);
+    background-color:red;
     font-weight: bold;
 
 }
@@ -218,14 +221,14 @@
     font-size:xxx-large;
     font-weight: 900;
     text-decoration: underline;
-    color:chocolate;
+    color:white;
     justify-self: center;
 }
 .footer{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows: repeat(1,250px);
-    background-color: chocolate;
+    background-color: red;
     align-items: center;
 }
 .about-cabi{
@@ -241,7 +244,6 @@
     grid-column:2/3;
     text-decoration: none;
     color: white;
-
 }
 .us{
     grid-column:3/4;
@@ -254,7 +256,6 @@
     cursor: pointer;
 }
 .hover{
-    
     animation:0.9s;
 }
 .hover:hover{
